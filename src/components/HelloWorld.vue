@@ -42,8 +42,6 @@
 </template>
 
 <script>
-import SideNav from "./SideNav.vue";
-
 export default {
   name: "HelloWorld",
   props: {
@@ -55,9 +53,6 @@ export default {
     vertical: "",
     csvParser: "",
     s3Bucket: ""
-  },
-  components: {
-    SideNav
   },
   methods: {
     basic: function() {
