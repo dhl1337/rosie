@@ -5,7 +5,7 @@ import singleSpaVue from 'single-spa-vue';
 const vueLifecycles = singleSpaVue({
   Vue,
   appOptions: {
-    el: '#app',
+    el: '#rosie',
     render: h => h(App)
   }  
 });
