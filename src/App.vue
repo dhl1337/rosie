@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SideNav/>
+    <HelloWorld/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import SideNav from './components/SideNav.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    SideNav
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: verdana;
+  display: flex;
+  height: 100%;
+}
+html, body {
+    margin: 0px;
+    height: 100%;
 }
 </style>
