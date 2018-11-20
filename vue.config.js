@@ -4,6 +4,9 @@ module.exports = {
       'Access-Control-Allow-Origin': '*'
     }
   },
+  css: { 
+    extract: false
+  },
   chainWebpack: (config) => {
     config.optimization.delete('splitChunks')
     config
