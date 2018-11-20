@@ -18,13 +18,9 @@ export default {
 </script>
 
 <style>
-#rosie {
+#rosie:not(:empty) {
   font-family: verdana;
   display: flex;
   height: 100%;
-}
-html, body {
-    margin: 0px;
-    height: 100%;
 }
 </style>
