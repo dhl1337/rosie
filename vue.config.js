@@ -5,6 +5,7 @@ module.exports = {
     }
   },
   chainWebpack: (config) => {
+    config.optimization.delete('splitChunks')
     config
       .output
         .libraryTarget('amd');
