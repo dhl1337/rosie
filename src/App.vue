@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="rosie">
     <SideNav />
     <HelloWorld/>
   </div>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style>
-#app {
+#rosie {
   font-family: verdana;
   display: flex;
   height: 100%;
